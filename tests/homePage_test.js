@@ -6,7 +6,7 @@ let url = "https://google.com/";
 let inputField = "div.RNNXgb";
 
 
-Scenario('test something', (I) => {
+Scenario('If the Search Input field is available', (I) => {
 	I.amOnPage(url);
 	I.seeInCurrentUrl("google");
 	I.seeElement(inputField);
