@@ -1,2 +1,2 @@
 # CodeCept-Test
-Simple  Visual Test Using Codeceptjs
+Simple Automated E2E Testing Using Codeceptjs and Pupeteer
