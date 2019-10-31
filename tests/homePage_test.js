@@ -8,6 +8,9 @@ let inputField = "div.RNNXgb";
 
 Scenario('If the Search Input field is available', (I) => {
 	I.amOnPage(url);
+
+	I.wait();
+
 	I.seeInCurrentUrl("google");
 	I.seeElement(inputField);
 
