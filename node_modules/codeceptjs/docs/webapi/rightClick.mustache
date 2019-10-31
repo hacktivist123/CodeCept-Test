@@ -1,0 +1,13 @@
+Performs right click on a clickable element matched by semantic locator, CSS or XPath.
+
+```js
+// right click element with id el
+I.rightClick('#el');
+// right click link or button with text "Click me"
+I.rightClick('Click me');
+// right click button with text "Click me" inside .context
+I.rightClick('Click me', '.context');
+```
+
+@param {string|object} locator clickable element located by CSS|XPath|strict locator.
+@param {string|object} context (optional, `null` by default) element located by CSS|XPath|strict locator.
