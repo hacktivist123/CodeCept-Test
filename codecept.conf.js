@@ -4,7 +4,7 @@ exports.config = {
   helpers: {
     Puppeteer: {
       url: 'https://www.google.com/',
-      show: true
+      show: false
     }
   },
   include: {
